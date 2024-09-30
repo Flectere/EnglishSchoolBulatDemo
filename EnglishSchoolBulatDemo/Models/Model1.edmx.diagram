@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a6bedb1f95ab4dab89687d26f1220086" Name="Diagram1">
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.Client" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.ClientService" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.Gender" Width="1.5" PointX="1.5" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.Service" Width="1.5" PointX="0.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.ServicePhoto" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EnglishSchoolBulatDemoModel.Tag" Width="1.5" PointX="3" PointY="17.125" IsExpanded="true" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="EnglishSchoolBulatDemoModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
